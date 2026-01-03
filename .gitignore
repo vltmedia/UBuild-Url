@@ -1,3 +1,4 @@
 ubuild-url/.gitignore
 node_modules/
 *exe
+ubuild-url*
