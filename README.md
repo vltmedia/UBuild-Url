@@ -14,6 +14,29 @@ A post-build tool that replaces relative paths (`./`) in your static files with 
 - Validates input paths and URLs before processing
 - Provides detailed progress reporting
 
+
+## Install
+
+### Linux
+```bash
+curl -L https://github.com/vltmedia/UBuild-Url/releases/download/v1.0.1/ubuild-url-v1.0.1-linux-x64.zip -o /tmp/ubuild.zip && sudo unzip -o /tmp/ubuild.zip -d /usr/local/bin
+
+```
+### Mac OSX
+```bash
+curl -L hhttps://github.com/vltmedia/UBuild-Url/releases/download/v1.0.1/ubuild-url-v1.0.1-macos-x64.zip -o /tmp/ubuild.zip && sudo unzip -o /tmp/ubuild.zip -d /usr/local/bin
+
+```
+### Mac OSX (M Chips)
+```bash
+curl -L https://github.com/vltmedia/UBuild-Url/releases/download/v1.0.1/ubuild-url-v1.0.1-macos-arm64.zip -o /tmp/ubuild.zip && sudo unzip -o /tmp/ubuild.zip -d /usr/local/bin
+```
+### Windows
+Make sure to run PowerShell as Administrator, then run:
+```powershell
+iwr https://github.com/vltmedia/UBuild-Url/releases/download/v1.0.1/ubuild-url-v1.0.1-windows-x64.zip -OutFile $env:TEMP\ubuild.zip; Expand-Archive $env:TEMP\ubuild.zip $env:TEMP\ubuild -Force; Move-Item $env:TEMP\ubuild\ubuild-url.exe C:\Windows\System32\ubuild-url.exe -Force
+```
+
 ## Installation
 
 1. Install Bun (if not already installed):
