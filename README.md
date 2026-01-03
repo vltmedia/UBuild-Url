@@ -2,6 +2,10 @@
 
 A post-build tool that replaces relative paths (`./`) in your static files with a base URL, making them work correctly when deployed. This allows you to host your built files on any URL without worrying about broken links and paste in the built html to SquareSpace or other CMS platforms.
 
+## Usages
+- Post build processing for React, Vue, Angular, Svelte, or any static site generator outputs
+- Preparing static files for deployment to CDNs or static hosting services
+
 ## Features
 
 - Replaces all instances of `./` with the provided base URL in supported file types
