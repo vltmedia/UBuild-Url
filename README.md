@@ -31,7 +31,7 @@ A post-build tool that replaces relative paths (`./`) in your static files with 
 Run the tool after your build process:
 
 ```bash
-bun run index.ts <dist-folder> <url>
+ubuild-url <dist-folder> <url>
 ```
 
 ## Build OS-Specific Binaries
